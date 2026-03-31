@@ -14,7 +14,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
 
     // Replace with your actual Gemini API Key
-    $apiKey = 'AIzaSyB4of80WqG2wWN-v5ia-d4aZEP_0uphJQk';
+    $apiKey = 'use your api key';
    
     // We are using the gemini-2.5-flash model for fast, standard text generation
     $url = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=' . $apiKey;
